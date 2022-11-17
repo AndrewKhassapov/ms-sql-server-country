@@ -4,7 +4,7 @@ List of Country and Country Code (ISO-3166 Alpha-2 and Alpha-3) with Flag
 
 ## Query updated for MS SQL Server 2017
 
-The original MySQL query is updated to allow use for MS SQL Server 2017 and above.
+The original MySQL query is updated to _be compatible with MS SQL Server 2017 and above_.
 
 Table name is set as Country. Feel free to change the table name as per your project needs.
 Flag images are inside the flag directory.
@@ -29,16 +29,18 @@ So, you can fetch the code value from the table and then change it to lowercase 
 |
 ```
 
-### License
+### License for update
 
+===
 The MIT License (MIT)
 
 Updated Copyright (c) 2022 Andrew Khassapov
 
-Free for use and distribution.
+# Free for use and distribution.
 
-### License for original branch
+### License for original master branch
 
+===
 The MIT License (MIT)
 
 Original Copyright (c) 2016 Yusuf Shakeel
@@ -60,7 +62,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-```
-
-```
+===
