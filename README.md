@@ -1,6 +1,6 @@
 # ms-sql-server-country
 
-List of Country and Country Code (ISO-3166 Alpha-2 and Alpha-3) with Flag
+List of Country and Country Code (ISO-3166 Alpha-2 and Alpha-3) with Flag.
 
 ## Query updated for MS SQL Server 2017
 
@@ -12,8 +12,11 @@ Flag images are inside the flag directory.
 ### Relation between the flag image filename and code in the country table
 
 The code (ISO-3166 Alpha-2) column in the country table is in UPPERCASE.
+
 The country code (ISO-3166 Alpha 3) column is in UPPERCASE.
+
 And the flag image filename is equal to the code (ISO-3166 Alpha-2) but in lowercase.
+
 So, you can fetch the code value from the table and then change it to lowercase and concatenate .png along with the path to the flags directory to get the image link.
 
 ```
@@ -31,16 +34,14 @@ So, you can fetch the code value from the table and then change it to lowercase 
 
 ### License for update
 
-===
 The MIT License (MIT)
 
 Updated Copyright (c) 2022 Andrew Khassapov
 
-# Free for use and distribution.
+Free for use and distribution.
 
 ### License for original master branch
 
-===
 The MIT License (MIT)
 
 Original Copyright (c) 2016 Yusuf Shakeel
@@ -62,4 +63,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-===
